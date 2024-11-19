@@ -1,0 +1,455 @@
+body {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambia el tipo de fuente */
+    margin: 0; /* Margen fuera del container */
+    padding: 0; /* padding dentro del container */
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: #000; /* Cambia el color de la letra */
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem
+}
+
+.menu {
+    display: flex;
+    gap: 10px; /* Separación del Flex */
+}
+
+.logo {
+    font-size: 4rem; /* Tamaño de la fuente */
+}
+
+.header {
+    display: flex; /* Alinea a los hijos al lado del otro */
+    align-items: center; /* Posiciona verticalmente */
+    justify-content: space-around; /* Separa items basandose en lo que queda libre de pantalla */
+    background-color: brown; /* Color del Fondo */
+}
+
+/*------------------- Estilos Banner1 ---------------------*/
+
+.banner1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; /* Margen fuera del container (TOP -> Arriba)*/
+}
+
+.banner1-col2 {
+    width: 25%; /* Ancho imagen */
+    height: 25%; /* Alto imagen */
+    border-radius: 10px; /* Radio del Borde */
+}
+
+.boton {
+    background-color: brown;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase; /* Pasa las letras a Mayusculas */
+    border: none; /* Elimina el borde por defecto de botón */
+    padding: 0.6rem 1.2rem;
+}
+
+/*--------------------------- Comienza el banner 2 ---------------------------*/
+
+.banner2-hijos {
+    background-color: royalblue;
+    font-size: 4rem;
+    color: white;
+    /* Espacio interior */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* Espacio Exterior */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    /* Borde de la Caja */
+    border: solid #000 5px;
+    border-radius: 10px;
+}
+
+.banner3-hijos {
+    background-color: darkcyan; 
+    font-size: 3.5rem; 
+    color: lightyellow; 
+    /* Espacio interior */
+    padding: 1.5rem; 
+    /* Espacio Exterior */
+    margin: 3rem 1.5rem; 
+    border: dashed #FF4500 4px;
+    border-radius: 15px; 
+    align-content: center;
+    display: grid;
+}
+
+.banner3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.h1-product {
+    text-align: center;
+}
+
+.p-product {
+    text-align: center;
+}
+
+.products-button {
+    padding: 1rem 2rem;
+    margin-left: 4.5;
+    border-radius: 10px;
+    background-color: cyan;
+    border: none;
+    align-content: center;
+}
+
+.products-button:hover {
+    background-color: rgb(68, 217, 217);
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.banner4-hijos {
+    background-color: teal; 
+    font-size: 4rem; 
+    color: gold; 
+    /* Espacio interior */
+    padding: 2rem; 
+    /* Espacio Exterior */
+    margin: 4rem 2rem; 
+    border: solid #FF6347 5px;
+    border-radius: 20px; 
+    align-content: center;
+    display: grid;
+}
+
+.banner4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-img-4 {
+    width: 320px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.h1-product-4 {
+    text-align: center;
+}
+
+.p-product-4 {
+    text-align: center;
+}
+
+.products-button-4 {
+    padding: 1.2rem 2.5rem;
+    margin-left: 5px; /* Asegúrate de agregar 'px' aquí */
+    border-radius: 12px;
+    background-color: lightseagreen;
+    border: none;
+    align-content: center;
+}
+
+.products-button-4:hover {
+    background-color: rgb(85, 255, 255);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.banner5-hijos {
+    background-color: royalblue; 
+    font-size: 3rem; 
+    color: white; 
+    /* Espacio interior */
+    padding: 3rem; 
+    /* Espacio Exterior */
+    margin: 5rem 3rem; 
+    border: dotted #FFD700 6px;
+    border-radius: 25px; 
+    align-content: center;
+    display: grid;
+}
+
+.banner5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.product-img-5 {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.h1-product-5 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.p-product-5 {
+    text-align: left;
+    font-style: italic;
+}
+
+.products-button-5 {
+    padding: 1.5rem 3rem;
+    margin-left: 10px; /* Asegúrate de agregar 'px' aquí */
+    border-radius: 15px;
+    background-color: deepskyblue;
+    border: 2px solid #ffffff;
+    align-content: center;
+}
+
+.products-button-5:hover {
+    background-color: rgba(0, 191, 255, 0.8);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banner6-hijos {
+    background-color: darkslategray; 
+    font-size: 2.5rem; 
+    color: lightcoral; 
+    /* Espacio interior */
+    padding: 4rem; 
+    /* Espacio Exterior */
+    margin: 6rem 4rem; 
+    border: groove #FF4500 4px;
+    border-radius: 30px; 
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.product-img-6 {
+    width: 400px;
+    height: auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.h1-product-6 {
+    text-align: right;
+    font-weight: 600;
+}
+
+.p-product-6 {
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.products-button-6 {
+    padding: 1rem 2rem;
+    margin-left: 15px; /* Asegúrate de agregar 'px' aquí */
+    border-radius: 20px;
+    background-color: lightseagreen;
+    border: 2px solid #ff7f50;
+    align-content: center;
+}
+
+.products-button-6:hover {
+    background-color: rgba(60, 179, 113, 0.9);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+/* Empiezan las Filas */
+
+.fila1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cuadrado {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}
+
+.fila1-hijo {
+    display: flex;
+    gap: 10px;
+}
+
+.fila2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.cuadrados-azules {
+    background-color: blue;
+    justify-content: space-around;
+    width: 500px;
+    height: 150px;
+}
+
+.fila3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cuadrado-1 {
+    background-color: salmon;
+    width: 300px;
+    height: 300px;
+}
+
+.cuadrado-2 {
+    background-color: salmon;
+    width: 400px;
+    height: 300px;
+}
+
+.fila3-hijo {
+    display: flex;
+    gap: 10px;
+}
+
+.banner7-hijos {
+    background-color: darkcyan; 
+    font-size: 3.5rem; 
+    color: lightyellow; 
+    /* Espacio interior */
+    padding: 1.5rem; 
+    /* Espacio Exterior */
+    margin: 3rem 1.5rem; 
+    border: groove #FF4500 4px;
+    border-radius: 15px; 
+    align-content: center;
+    display: grid; 
+}
+
+.banner7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h1-product-2 {
+    text-align: center;
+}
+
+.p-product-2 {
+    text-align: center;
+    color: #fff;
+}
+
+.products-button-2 {
+    padding: 1rem 2rem;
+    margin-left: 4.5;
+    border-radius: 10px;
+    background-color: cyan;
+    border: none;
+    align-content: center;
+}
+
+.products-button-2:hover {
+    background-color: rgb(68, 217, 217);
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.h3-product {
+    color: #fff;
+    font-size: 3rem;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.fila4 {
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.fila4-hijo {
+    display: block;
+}
+
+.fila4-hijo-2 {
+    display: block;
+}
+
+.cuadrado-4 {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+}
+
+.fila4-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.rectangulo-up {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.rectangulo {
+    background-color: red;
+    width: 600px;
+    height: 150px;
+}
+
+.cuadrados {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadrado-bottom {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
